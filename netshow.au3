@@ -3,6 +3,7 @@
 #AutoIt3Wrapper_AU3Check_Parameters=-d -w 1 -w 2 -w 3 -w 4 -w 5 -w 6
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #include <Array.au3>
+#most source from AutoIt forum 
 
 Global $aArray = _IPDetails(), $sData
  _ArrayDisplay($aArray,"NetShow")
@@ -53,7 +54,7 @@ Func _IPDetails()
             $aReturn[$iCount][1] = _IsString($oObjectItem.IPAddress(0))
             $aReturn[$iCount][2] = _IsString($oObjectItem.MACAddress)
             $aReturn[$iCount][3] = _IsString($oObjectItem.DefaultIPGateway(0))
-            $aReturn[$iCount][4] = _IsString(_WMIArrayToString($oObjectItem.DNSServerSearchOrder(), " - ")) ; You could use _ArrayToString() but I like creating my own Functions especially when I don't need alot of error checking.
+            $aReturn[$iCount][4] = _IsString(_WMIArrayToString($oObjectItem.DNSServerSearchOrder(), " - ")) 
 ;            $aReturn[$iCount][5] = _IsString($oObjectItem.ServiceName(0))
 
 		Next
