@@ -8,7 +8,6 @@
 #ce ----------------------------------------------------------------------------
 Opt("TrayAutoPause", 0)
  Opt("TrayMenuMode", 1)
-; Opt("TrayOnEventMode", 1)
 
 global $ip
 global $p
@@ -40,7 +39,7 @@ While True
 		showping()
 	EndIf
 	Local $msg = TrayGetMsg()
-	Select 
+	Select
 		Case $msg = 0
 			ContinueLoop
 		Case Else
