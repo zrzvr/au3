@@ -21,7 +21,7 @@ global $t[2]=["Up","Down"]
 $obj = ObjCreate ("SAPI.SpVoice")
 
 if $cmdline[0]<1 then
-	$ip=InputBox("auPing", "Enter Host: ", "192.168.2.100")
+	$ip=InputBox("auPing", "Enter Host: ", "8.8.8.8")
 
 Else
 	$ip=$cmdline[1]
