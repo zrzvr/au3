@@ -3,10 +3,10 @@ au3
 
 AutoIt Scripts
 
-```plantuml
+<uml>
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
 
 Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-```
+Alice <-- Bob: another authentication Response
+</uml>
