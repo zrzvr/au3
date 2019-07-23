@@ -1,0 +1,8 @@
+no icmp permit any wan1
+icmp permit any wan1
+
+icmp deny host 37.1.167.20 wan1
+no icmp deny host 37.1.167.20 wan1
+no icmp permit any wan1
+icmp permit any wan1
+sh run icmp

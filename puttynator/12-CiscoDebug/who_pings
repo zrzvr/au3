@@ -1,0 +1,4 @@
+debug ip icmp
+term mon
+
+no debug all

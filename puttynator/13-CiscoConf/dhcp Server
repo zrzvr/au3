@@ -1,0 +1,6 @@
+ip dhcp pool DHCP-Pool
+ import all
+ network 192.168.3.0 255.255.255.0
+ dns-server 192.168.3.254
+ default-router 192.168.3.254
+ 

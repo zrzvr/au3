@@ -1,0 +1,5 @@
+show arp
+show ip route
+show ip int brief
+show ip acco
+sh cdp neighbors

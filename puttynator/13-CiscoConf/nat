@@ -1,0 +1,9 @@
+int fa4
+ip nat outside
+exit
+int vlan1
+ip nat inside
+exit
+ip nat inside source list 100 int Fa4 overload
+access-list 100 permit tcp 10.10.50.0 0.0.0.255 any
+ 
