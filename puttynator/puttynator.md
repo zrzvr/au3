@@ -9,4 +9,4 @@ May help administrating multiple devices (routers, switches...) simultaneously.
 Use at yor own risk.
 
 For usage with puTTY:
-Edit CLASS in puttynator.ini 
+Edit CLASS in puttynator.ini for defining the targeted terminal application. 
